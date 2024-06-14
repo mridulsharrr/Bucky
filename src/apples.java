@@ -1,16 +1,17 @@
+//import
+import java.util.Scanner;
 class apples{
     public static void main(String []args){
+        Scanner bucky = new Scanner(System.in);
+        double fnum, snum, answer;
 
-    // declare var
-        double tuna;
+        System.out.println("Enter First Num: ");
+        fnum = bucky.nextDouble();
 
-    // assign var
-        tuna = 5.28;
+        System.out.println("Enter Second Num: ");
+        snum = bucky.nextDouble();
 
-    //print -> stay on same line || println -> prints next print to next line
-        System.out.print("I want ");
-        System.out.println(tuna);
-        System.out.print(" Tuna");
-
+        answer = fnum + snum;
+        System.out.println(answer);
     }
 }
