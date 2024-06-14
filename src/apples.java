@@ -2,16 +2,17 @@
 import java.util.Scanner;
 class apples{
     public static void main(String []args){
-        Scanner bucky = new Scanner(System.in);
-        double fnum, snum, answer;
 
-        System.out.println("Enter First Num: ");
-        fnum = bucky.nextDouble();
+        int test;
+        Scanner Bucky = new Scanner(System.in);
+        System.out.print("Guess A Number: ");
+        test = Bucky.nextInt();
 
-        System.out.println("Enter Second Num: ");
-        snum = bucky.nextDouble();
-
-        answer = fnum + snum;
-        System.out.println(answer);
+        if (test == 9){
+            System.out.println("Test");
+        }
+        else{
+            System.out.println("Test2");
+        }
     }
 }
