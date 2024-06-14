@@ -9,7 +9,7 @@ class apples{
         test = Bucky.nextInt();
 
         if (test == 9){
-            System.out.println("Test");
+            System.out.println("Test1");
         }
         else{
             System.out.println("Test2");
