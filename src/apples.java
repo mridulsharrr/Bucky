@@ -1,18 +1,28 @@
-//import
 import java.util.Scanner;
 class apples{
     public static void main(String []args){
+        //get age to switch
 
-        int test;
-        Scanner Bucky = new Scanner(System.in);
-        System.out.print("Guess A Number: ");
-        test = Bucky.nextInt();
+        Scanner INPage = new Scanner(System.in);
 
-        if (test == 9){
-            System.out.println("Test1");
-        }
-        else{
-            System.out.println("Test2");
+        int age;
+
+        System.out.print("What is your age: ");
+        age = INPage.nextInt();
+        //switch code at age
+        switch (age){
+            case 1:
+                System.out.println("You are 1");
+                break;
+            case 2:
+                System.out.println("You can talk");
+                break;
+            case 3:
+                System.out.println("You Are 3");
+                break;
+            default:
+                System.out.print("It's okay");
+                break;
         }
     }
 }
